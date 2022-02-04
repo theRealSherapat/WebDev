@@ -1,0 +1,244 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #E8EFF4;
+}
+
+h1 {
+  color: #444;
+  font-size: 3em;
+}
+
+h3 {
+  color: #000000;
+}
+
+h3:hover {
+  color: #000000;
+}
+
+h4 {
+  padding: 20px;
+  font-family: finnmain, Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: finnmain,Arial,Helvetica,sans-serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  padding-top: 10px;
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  position: relative;
+  text-align: center;
+}
+
+header h1 {
+  display: inline-block;
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  color: #444;
+  font-size: 4em;
+  letter-spacing: -2px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+header img {
+  width: 150px;
+  display: inline-block;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+select {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+span {
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.container {
+  width: 55%;
+  background-color: #FFFFFF;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.menu {
+  text-align: center;
+  background-color: #95D2E9;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+.menu a {
+  font-family: Verdana;
+  color: #444;
+}
+
+.menu a:hover {
+  color: #000000;
+}
+
+.menu li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
+
+.buttons {
+  display: inline-block;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  padding-bottom: 3px;
+}
+
+.buttons div {
+  transition: background-color 1s, border-width 0s;
+}
+
+.buttons div:hover {
+  background-color: rgba(65, 90, 133, 0);
+  border-width: 2px;
+}
+
+.info {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: rgba(65, 90, 133, 0.45);
+}
+
+.leggtil {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 18px;
+  border: 1px solid black;
+  background-color: rgba(65, 90, 133, 0.45);
+}
+
+.links {
+  border-bottom: 1px solid #444;
+}
+
+.links:hover {
+  background-color: rgba(195, 207, 219, 0.2);
+}
+
+.links img {
+  margin: 5px;
+  width: 55%;
+  display: inline-block;
+}
+
+.innlegg h1 {
+  padding: 20px;
+}
+
+.innlegg h3 {
+  padding: 15px;
+}
+
+.innlegg p {
+  padding: 15px;
+}
+
+.infobox {
+  float: right;
+  width: 365px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.detalj img {
+  width: 100%;
+}
+
+.registrer {
+  margin-top: 40px;
+  width: 280px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.registrer label {
+  display: block;
+}
+
+.bedrift {
+  background-image: url("img/grimstad4.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 504px;
+  padding-top: 40px;
+}
+
+.historie {
+  width: 55%;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  background-color: rgba(232, 239, 244, 0.6);
+  display: inline-block;
+  border: 1px solid #444;
+}
+
+.kontakt {
+  text-align: left;
+  background-color: rgba(52, 52, 52, 0.6);
+  width: 315px;
+  display: inline-block;
+  position: absolute;
+  color: rgb(193, 193, 193);
+}
+
+.verdi {
+  text-align: right;
+}
+
+.benevning {
+  display: inline-flex;
+  color: #8f8b8b;
+}
+
+.block {
+  display: block;
+}
+
+#submit {
+  margin-top: 5px;
+}
+
+@media (max-width: 1180px) {
+  .menu h2 {
+    font-size: 1em;
+  }
+
+  .menu li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

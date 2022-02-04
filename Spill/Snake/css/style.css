@@ -1,0 +1,75 @@
+body {
+  background-image: url("../img/jungel.jpg");
+  background-size: cover;
+  text-align: center;
+  font-family: 'Century Gothic', sans-serif;
+  overflow: hidden;
+  color: white;
+}
+
+h1 {
+  font-size: 6em;
+  color: rgb(97, 185, 36);
+  font-family: 'Bungee', sans-serif;
+  text-shadow: -1px 0 black, 0 3px black, 6px 0 black, 0 -1px black;
+  margin: -60px;
+}
+
+h3 {
+  font-size: 3em;
+  margin: -20px;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+p {
+  font-size: 3em;
+  margin: 10px;
+}
+
+#game {
+  background-color: rgba(129, 80, 59, 0.8);
+  border: 2px solid darkgrey;
+  border-collapse: collapse;
+  margin: 80px auto;
+  margin-bottom: 20px;
+}
+
+#game td {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+#startSpillet {
+  margin: 30px 0;
+  margin-bottom: -50px;
+  font-size: 2em;
+}
+
+.slangeKropp {
+  background-color: rgb(39, 207, 51);
+}
+
+.slangeHode {
+  background-color: rgb(0, 143, 56);
+}
+
+.slangeHale {
+    background-color: rgb(142, 226, 83);
+}
+
+.candyEnkel {
+  background-color: rgb(44, 231, 95);
+}
+
+.candyMiddels {
+  background-color: rgb(214, 54, 54);
+}
+
+.candyVanskelig {
+  background-color: rgb(150, 17, 255);
+}
+
+.candySuper {
+  background-color: rgb(250, 0, 255);
+}

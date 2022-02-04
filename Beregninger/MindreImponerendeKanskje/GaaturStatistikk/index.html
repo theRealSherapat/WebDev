@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gåtur-app</title>
+  <meta charset="utf-8">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <form>
+      <input type="number" min="1" max="40" required> Antall km gått
+      <button type="submit">Registrer</button>
+    </form>
+  </div>
+  <table>
+    <thead>
+      <td>Ant turer</td>
+      <td>Lengste tur</td>
+      <td>Snitt pr tur</td>
+      <td>% av turer under 2 mil</td>
+      <td>% av turer over 2 mil</td>
+    </thead>
+    <tr>
+      <td id="antall"></td>
+      <td id="lengste"></td>
+      <td id="snitt"></td>
+      <td id="prosUnder"></td>
+      <td id="prosOver"></td>
+    </tr>
+  </table>
+  <div id="under">
+  </div>
+  <div id="over">
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

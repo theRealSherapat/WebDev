@@ -1,0 +1,36 @@
+body {
+
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.egg {
+  margin: auto;
+  width: 433px;
+  height: 416px;
+  background-image: url("../media/egg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.egg2 {
+  margin: auto;
+  width: 433px;
+  height: 416px;
+  background-image: url("../media/speilegg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-size: 4em;
+  text-align: center;
+  padding-top: 170px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

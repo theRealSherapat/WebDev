@@ -1,0 +1,25 @@
+body {
+  background-color: #323232;
+}
+
+.innpakning {
+  height: 300px;
+  margin: auto;
+  margin-top: 230px;
+  background-color: #1a4741;
+  position: relative;
+}
+
+.animer {
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 5px;
+  animation: sprett 0.9s infinite ease-in-out;
+}
+
+@keyframes sprett {
+  0% {top: 0px}
+  50% {top: 295px}
+  100% {top: 0px}
+}

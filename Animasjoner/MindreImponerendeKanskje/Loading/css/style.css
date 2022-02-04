@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(50, 50, 50);
+  margin: 0;
+}
+
+.boks {
+  margin-left: 600px;
+  margin-top: 200px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: aquamarine;
+  animation: flyttBoks 0.8s infinite ease-in-out;
+}
+
+.sirkel {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  position: absolute;
+  left: 700px;
+  top: 300px;
+  animation: sirkel 0.3s infinite ease-in-out;
+  animation-play-state: paused;
+  animation-direction: alternate;
+}
+
+@keyframes sirkel {
+  from {width: 100px; height: 100px;}
+  to {width: 0px; height: 0px; left: 750px; top: 350px;}
+}
+
+@keyframes flyttBoks {
+  0% {left: 0;
+      top: 0;
+      border-radius: 0;
+     }
+  25% {left: 200px;
+       top: 0;
+       background-color: aqua;
+      }
+  50% {top: 200px;
+       left: 200px;
+       border-radius: 50%;
+       background-color: aquamarine;
+      }
+  75% {left: 0;
+       top: 200px;
+       background-color: aqua;
+      }
+  100% {left: 0;
+        top: 0;
+        border-radius: 0;
+       }
+}

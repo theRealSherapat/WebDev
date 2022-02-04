@@ -1,0 +1,24 @@
+.bildekarusell {
+  width: 600px;
+  height: 150px;
+  position: relative;
+  margin: 150px auto;
+  overflow: hidden;
+}
+
+.bilde {
+  width: 600px;
+  height: 150px;
+  position: absolute;
+  left: 0;
+}
+
+@keyframes innFraHoyre {
+  from { left: 600px; }
+  to { left: 0; }
+}
+
+@keyframes utTilVenstre {
+  from { left: 0; }
+  to { left: -600px; }
+}

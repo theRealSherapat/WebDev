@@ -1,0 +1,153 @@
+body {
+  font-family: 'Century Gothic', sans-serif;
+  background-color: lightblue;
+}
+
+form {
+  position: absolute;
+  left: 5%;
+  top: 0;
+}
+
+button {
+  margin: 20px;
+  font-size: 1.5em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+input {
+  font-size: 1.5em;
+  max-width: 70px;
+}
+
+p {
+  display: inline-block;
+  font-size: 2em;
+  color: white;
+  margin: 0;
+}
+
+.animasjon {
+  width: 800px;
+  height: 495px;
+  margin: auto;
+  margin-top: 6%;
+  text-align: center;
+  border: 3px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+.figur {
+  position: absolute;
+}
+
+#bakgrunn {
+  z-index: -100;
+}
+
+#stang {
+  top: 150px;
+  left: 600px;
+}
+
+#vmblad {
+  top: 23px;
+  left: 492px;
+  animation-name: molleSnurr;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+}
+
+#tre {
+  width: 160px;
+  top: 80px;
+  left: 20px;
+  animation-name: trestamme;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+#blad1 {
+  width: 30px;
+  top: 380px;
+  left: 80px;
+  animation-name: bladblaaser1;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-play-state: paused;
+  animation-delay: 0.5s;
+}
+
+#blad2 {
+  width: 30px;
+  top: 400px;
+  left: 120px;
+  animation-name: bladblaaser2;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-play-state: paused;
+}
+
+@keyframes trestamme {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes bladblaaser1 {
+  0% {
+    left: 80px;
+    top: 380px;
+  }
+
+  50% {
+    left: 100px;
+    top: 360px;
+  }
+
+  100% {
+    left: -100px;
+    top: 200px;
+  }
+}
+
+@keyframes bladblaaser2 {
+  0% {
+    left: 120px;
+    top: 400px;
+  }
+
+  50% {
+    left: 130px;
+    top: 360px;
+  }
+
+  100% {
+    left: -100px;
+    top: 300px;
+  }
+}
+
+@keyframes molleSnurr {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

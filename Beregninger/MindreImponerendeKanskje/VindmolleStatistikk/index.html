@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wattproduksjon per døgn</title>
+  <meta charset="utf-8">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Vindstyrker for periodene</h1>
+  <table>
+    <tr>
+      <th>Kl. 2 - 8</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Kl. 8 - 14</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Kl. 14 - 20</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Kl. 20 - 2</th>
+      <td></td>
+    </tr>
+  </table>
+  <form>
+    <h3>Legg til vindstyrke</h3>
+    <input type="number" placeholder="m/s" step="0.1" min="0"> <p>i</p>
+    <select>
+      <option disabled selected hidden>Periode</option>
+      <option value="0">Kl. 2 - 8</option>
+      <option value="1">Kl. 8 - 14</option>
+      <option value="2">Kl. 14 - 20</option>
+      <option value="3">Kl. 20 - 2</option>
+    </select><br>
+    <button type="submit">Registrer vindstyrke</button>
+  </form>
+  <p id="resultat"></p>
+  <script src="js/script.js"></script>
+</body>
+</html>

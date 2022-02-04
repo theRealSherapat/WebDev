@@ -1,0 +1,108 @@
+body {
+  background-image: url("../media/bakgrunn1.jpg");
+  background-size: cover;
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-size: 14px;
+  color: #323232;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  display: inline-block;
+}
+
+.play {
+  margin-left: 20px;
+  margin-top: -37px;
+  padding: 5px;
+  background-color: rgba(42, 227, 49, 0.6);
+  box-shadow: 1px 1px 2px rgb(89, 59, 25);
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  cursor: pointer;
+}
+
+.stop {
+  margin-left: 20px;
+  margin-top: -37px;
+  padding: 5px;
+  background-color: rgba(184, 0, 0, 0.5 );
+  box-shadow: 1px 1px 2px rgb(89, 59, 25);
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  cursor: pointer;
+}
+
+.play:hover {
+  background-color: rgba(42, 227, 49, 0.8);
+}
+
+.stop:hover {
+  background-color: rgba(184, 0, 0, 0.7);
+}
+
+.play:active {
+  box-shadow: 0px 0px 0px black;
+}
+
+.button {
+  width: 75px;
+  height: 20px;
+  border: 3px solid black;
+  font-family: sans-serif;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(22, 248, 255, 0.7);
+  cursor: pointer;
+}
+
+.container {
+  width: 25%;
+  margin: auto;
+  padding: 5px;
+  background-color: rgba(254, 254, 254, 0.80);
+  border: 3px solid black;
+  margin-top: 15px;
+}
+
+.sporsmaal {
+  width: 90%;
+  margin: auto;
+}
+
+.sporsmaal h3 {
+  text-align: center;
+}
+
+.resultat {
+  margin: 20px 5px;
+  padding: 20px;
+  font-size: 3.5ex;
+}
+
+.nopadding {
+  padding-left: -19.21px;
+}
+
+.padding {
+  padding-left: 19.21px;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 40%;
+  }
+
+  .css h3 {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}

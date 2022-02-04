@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hangman</title>
+  <meta charset="utf-8">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="media/stickman.png"/>
+</head>
+<body>
+  <div class="container">
+    <div id="forgrunnsvindu"></div>
+    <p id="riktigeBokstaver"></p>
+    <p id="brukteBokstaver"></p>
+    <p id="sjanserIgjen"></p>
+    <canvas width="681.3" height="446.1"></canvas>
+    <div class="inputs">
+      <div class="input">
+        <input type="text" name="bokstav" id="bokstav" maxlength="1">
+      </div>
+      <a href="#"><div class="button">
+        <span>Test bokstav</span>
+      </div></a>
+    </div>
+  </div>
+  <img src="media/mute.png" id="mute">
+  <audio autoplay loop>
+    <source src="media/gitarspel.mp3" type="audio/mpeg">
+  </audio>
+  <script src="js/script.js"></script>
+  </body>
+  </html>

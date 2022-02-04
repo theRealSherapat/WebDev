@@ -1,0 +1,40 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+  margin-top: 80px;
+}
+
+td {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: rgba(175, 175, 175, 0.5);
+}
+
+.container {
+  margin-top: 10%;
+}
+
+#under {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 780px;
+  top: 350px;
+}
+
+#over {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 950px;
+  top: 350px;
+}

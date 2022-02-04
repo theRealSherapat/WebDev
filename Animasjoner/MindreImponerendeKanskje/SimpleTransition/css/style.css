@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+div {
+  margin-left: 0;
+  height: 50px;
+  width: 50px;
+  background-color: #323232;
+  transition: margin-left 2s linear, background-color 1s ease 1s, width 1s 2s, height 1s 2s;
+}
+
+.flyttHoyre {
+  margin-left: 50%;
+  background-color: rgb(255, 55, 190);
+  width: 100px;
+  height: 100px;
+}
